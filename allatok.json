@@ -36,21 +36,21 @@
         "taplalek": "Húsevő, kedvenc prédája a fókák"
     },
     {
-        "nev": "Gímszarvas",
-        "kep": "./src/img-animal/gímszarvas.jpg",
-        "becenev": "Gombi",
+        "nev": "Kanadai hiúz",
+        "kep": "./src/img-animal/kanadaihiúz.jpg",
+        "becenev": "Kancsi",
         "elletkor": "10 év",
-        "faj": "Cervus elaphus",
-        "szarmazas": "Európa",
-        "taplalek": "Lágy szárú növények, a bokrok és fák rügyei"
+        "faj": "Lynx canadensis",
+        "szarmazas": "Észak Amerika, Kanada",
+        "taplalek": "Húsevő, prédája a hócipős nyúl"
     },
     {
-        "nev": "Gímszarvas",
-        "kep": "./src/img-animal/gímszarvas.jpg",
-        "becenev": "Gombi",
-        "elletkor": "10 év",
-        "faj": "Cervus elaphus",
-        "szarmazas": "Európa",
-        "taplalek": "Lágy szárú növények, a bokrok és fák rügyei"
-    },
+        "nev": "Leopárd",
+        "kep": "./src/img-animal/leopard.jpg",
+        "becenev": "Foltos",
+        "elletkor": "8 év",
+        "faj": "Panthera pardus",
+        "szarmazas": "Dél Afrika",
+        "taplalek": "Húsevő, gyakran eszik bogarakat, rágcsálókat és halakat"
+    }
 ]
