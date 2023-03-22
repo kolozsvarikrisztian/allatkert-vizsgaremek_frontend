@@ -10,9 +10,6 @@ function App() {
     <div className="App">
       <Home />
     </div>
-    // <div className="App">
-    //   A komponenseknek itt lesz a helye!
-    // </div>
   );
 }
 

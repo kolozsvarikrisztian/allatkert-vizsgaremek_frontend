@@ -6,7 +6,7 @@ import './App.css';
 import Minielefant from './img-news/minielephant2.jpg';
 import Minielefant1 from './img-news/minielephant.jpg';
 import Minielefant2 from './img-news/minielephant1.jpg';
-import Allatok from "./Allatok";
+
 
 function Home() {
     return (
@@ -14,7 +14,7 @@ function Home() {
             <ul>
             <li><a href="index.html"><strong>Főoldal</strong></a></li>
             <li><a href="rolunk.html"><strong>Rólunk</strong></a></li>
-            <li><a href={Allatok}><strong>Állatok</strong></a></li>
+            <li><a href="allatok.html"><strong>Állatok</strong></a></li>
             <li><a href="programok.html"><strong>Programok</strong></a></li>
             <li><a href="helyszinek.html"><strong>Helyszínek</strong></a></li>
             <li><a href="galeria.html"><strong>Galéria</strong></a></li>
