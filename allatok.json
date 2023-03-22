@@ -1,7 +1,52 @@
 [
     {
         "nev": "Gímszarvas",
-        "kep": "",
+        "kep": "./src/img-animal/gímszarvas.jpg",
+        "becenev": "Gombi",
+        "elletkor": "10 év",
+        "faj": "Cervus elaphus",
+        "szarmazas": "Európa",
+        "taplalek": "Lágy szárú növények, a bokrok és fák rügyei"
+    },
+    {
+        "nev": "Hullámos papagáj",
+        "kep": "./src/img-animal/hullamospapagaj.jpg",
+        "becenev": "Arász",
+        "elletkor": "5 év",
+        "faj": "Melopsittacus undulatus",
+        "szarmazas": "Ausztrália",
+        "taplalek": "Fűmagvak, kedvence a köles"
+    },
+    {
+        "nev": "Indiai elefánt",
+        "kep": "./src/img-animal/indiaielefant.jpg",
+        "becenev": "Bence",
+        "elletkor": "26 év",
+        "faj": "Elephas maximus indicus",
+        "szarmazas": "India",
+        "taplalek": "Füvet, fakérget, gyökeret és gyümölcsöt eszik"
+    },
+    {
+        "nev": "Jegesmedve",
+        "kep": "./src/img-animal/jegesmedve.jpg",
+        "becenev": "Lackó",
+        "elletkor": "14 év",
+        "faj": "Ursus maritimus",
+        "szarmazas": "Északi Sarkvidék",
+        "taplalek": "Húsevő, kedvenc prédája a fókák"
+    },
+    {
+        "nev": "Gímszarvas",
+        "kep": "./src/img-animal/gímszarvas.jpg",
+        "becenev": "Gombi",
+        "elletkor": "10 év",
+        "faj": "Cervus elaphus",
+        "szarmazas": "Európa",
+        "taplalek": "Lágy szárú növények, a bokrok és fák rügyei"
+    },
+    {
+        "nev": "Gímszarvas",
+        "kep": "./src/img-animal/gímszarvas.jpg",
         "becenev": "Gombi",
         "elletkor": "10 év",
         "faj": "Cervus elaphus",
