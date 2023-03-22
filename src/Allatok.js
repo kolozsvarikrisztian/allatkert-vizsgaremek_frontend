@@ -1,4 +1,4 @@
-
+import './Allatok.css'; 
 
 function Allatok() {
     return (

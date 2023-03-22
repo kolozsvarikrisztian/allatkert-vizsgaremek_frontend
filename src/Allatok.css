@@ -1,0 +1,47 @@
+img {
+    height: 200px;
+    display: flex;
+    width: 80%;
+    border-radius: 5px; 
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+    padding: 2px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.kartyak {
+    background-color:  #29221A;
+    color: white;
+    width: 400px;
+    height: 500px;
+    border: 2px solid #114700;
+    justify-content: center;
+    display: flex; 
+    margin: 20px;
+    padding-bottom: 5px;
+}
+
+h1{
+    padding: 30px;
+}
+
+#content{
+    justify-content: center;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+body{
+    background-image: url("./img-wallpapers/allatok.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 100vh;
+}
