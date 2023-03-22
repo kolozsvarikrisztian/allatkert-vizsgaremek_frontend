@@ -1,6 +1,11 @@
 [
     {
-        "ne":
-
-    }
+        "nev": "Gímszarvas",
+        "kep": "",
+        "becenev": "Gombi",
+        "elletkor": "10 év",
+        "faj": "Cervus elaphus",
+        "szarmazas": "Európa",
+        "taplalek": "Lágy szárú növények, a bokrok és fák rügyei"
+    },
 ]
