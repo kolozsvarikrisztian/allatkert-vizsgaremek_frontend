@@ -1,4 +1,4 @@
-import './Allatok.css'; 
+import './Allatok.css';
 
 function Allatok() {
     return (
@@ -11,18 +11,18 @@ function Allatok() {
 };
 
 
-function Allat({allat}) {
+function Allat({ allat }) {
     return (
         <div className="card col-lg-4 kartyak">
             <h2>{allat.nev}</h2>
-            <img src={allat.kep}/>
-                <div>
-                    <p class="text-center">Becenév: {allat.becenev}</p>
-                    <p class="text-center">Életkora: {allat.elletkor}</p>
-                    <p class="text-center">Állatfaj: {allat.faj}</p>
-                    <p class="text-center">Származás: {allat.szarmazas}</p>
-                    <p class="text-center">Táplálék: {allat.taplalek}</p>
-                </div>
+            <img src={allat.kep} />
+            <div>
+                <p class="text-center">Becenév: {allat.becenev}</p>
+                <p class="text-center">Életkora: {allat.elletkor}</p>
+                <p class="text-center">Állatfaj: {allat.faj}</p>
+                <p class="text-center">Származás: {allat.szarmazas}</p>
+                <p class="text-center">Táplálék: {allat.taplalek}</p>
+            </div>
         </div>
     )
 }
