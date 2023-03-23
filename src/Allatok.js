@@ -13,7 +13,7 @@ function Allatok() {
 
 function Allat({ allat }) {
     return (
-        <div className="card col-lg-4 kartyak">
+        <div className="card col-lg-4">
             <h2>{allat.nev}</h2>
             <img src={allat.kep} />
             <div>
