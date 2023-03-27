@@ -15,7 +15,7 @@ function Allat({ allat }) {
     return (
         <div className="card col-lg-4">
             <h2>{allat.nev}</h2>
-            <img src={allat.kep} />
+            <img className='imgAnimal' src={allat.kep} />
             <div>
                 <p class="text-center">Becenév: {allat.becenev}</p>
                 <p class="text-center">Életkora: {allat.elletkor}</p>

@@ -13,16 +13,16 @@ function Home() {
     return (
         <div id="menu">
             <ul>
-            <li><a href="index.html"><strong>Főoldal</strong></a></li>
-            <li><a href="rolunk.html"><strong>Rólunk</strong></a></li>
-            <li><a href="allatok.html"><strong>Állatok</strong></a></li>
-            {/* <li><Link to={Allatok}><strong>Állatok</strong></Link></li> */}
-            <li><a href="programok.html"><strong>Programok</strong></a></li>
-            <li><a href="helyszinek.html"><strong>Helyszínek</strong></a></li>
-            <li><a href="galeria.html"><strong>Galéria</strong></a></li>
-            <li><a href="jegyek.html"><strong>Jegyek</strong></a></li>
-            <li><a href="kapcsolat.html"><strong>Kapcsolat</strong></a></li>
-        </ul>
+                <li><a href="index.html"><strong>Főoldal</strong></a></li>
+                <li><a href="rolunk.html"><strong>Rólunk</strong></a></li>
+                <li><a href="allatok.html"><strong>Állatok</strong></a></li>
+                <li><a href="programok.html"><strong>Programok</strong></a></li>
+                <li><a href="helyszinek.html"><strong>Helyszínek</strong></a></li>
+                <li><a href="terkep.html"><strong>Térkép</strong></a></li>
+                <li><a href="galeria.html"><strong>Galéria</strong></a></li>
+                <li><a href="jegyek.html"><strong>Jegyek</strong></a></li>
+                <li><a href="kapcsolat.html"><strong>Kapcsolat</strong></a></li>             
+            </ul>
         <div className="page">
             <div id="content">
                 <h1>Erdőkilátó Állatkert és Szabadidő Park</h1>
