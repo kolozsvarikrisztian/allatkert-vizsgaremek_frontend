@@ -5,6 +5,7 @@ import './Home.css';
 import Home from './Home';
 import Allatok from "./Allatok";
 import Gallery from "./Gallery";
+import Programok from "./Programok";
 
 
 function App() {
