@@ -20,7 +20,7 @@ import playground from './img-projekt/playground.jpg';
 function Gallery() {
     return (
         <div>
-        <div id="content" className="container">
+        <div id="content" className="">
         <h1>Galéria</h1>
         <div className="row">
             <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
@@ -120,3 +120,4 @@ function Gallery() {
 }
 
 export default Gallery;
+
