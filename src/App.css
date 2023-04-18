@@ -1,40 +1,5 @@
-h1 {
-  text-align: center;
-  font-size: 70px !important;
-  font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-body{
-  /* background-color: rgb(255, 236, 172); */
-  background-position: center;
-  background-size: cover;
-  margin: auto;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url('img/wallp2.jpg');
-  /* background-color: white; */
-}
-
-#content{
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 20px;
-  position: relative;
-  min-height: 80vh;
-  width: 80%;
-  top:20%;
-  left:50%;
-  transform: translateX(-50%);
+h1{
   color: rgb(105, 60, 0);
-}
-
-#leiras {
-  text-align: center;
-  font-weight: bold;
-  font-style: oblique;
-  font-size: 30px;
-  margin-bottom: 25px;
 }
 
 #menu{
@@ -75,37 +40,28 @@ body{
 #menu a:hover{
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
 }
-/*
-.imgmap {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-*/
 
-.container{
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  flex-wrap: wrap;
+.active{
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px;
 }
-/*
-.cardbody img{
-  float: left;
-  vertical-align: middle;
-  padding-right: 2vh;
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-*/
+
 .card{
-  background-color: #29221A !important;
+  background-color: #29221A;
   overflow: hidden;
   border-radius: 10px;
-  width: 400px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 90px;
+  width: 10vw;
+  margin-bottom: 20px;
   color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card img{
@@ -116,18 +72,394 @@ body{
   max-width: 400px;
 }
 
-/* 
-.card h1{
+.welcome{
+  text-align: center;
+  color: rgb(105, 60, 0);
+}
+
+.left{
+  /* width: 20vw;
+  padding: 20px; */
+  margin-bottom: 50px;
+  color: rgb(105, 60, 0);
+}
+
+.leftdivheader{
+  font-size: 18px;
+}
+
+.contact{
+  font-weight: bold;
+}
+
+.content{
+  display: flex;
+}
+
+/* .mid{
+  width: 60vw;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+} */
+
+.right{
+  /* width: 20vw;
+  padding-top: 20px; */
+  margin-bottom: 50px;
+}
+
+.jegyek{
+  margin-top: 20px;
+}
+
+.jegy{
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#tajekoztato {
+  text-align: center;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+#ar {
+  text-align: right;
+  font-weight: bold;
+  width: 4vw;
+}
+
+#jegytipus {
+  text-align: left;
+  font-weight: bold;
+  width: 14vw;
+}
+
+#arak {
+  text-align: right;
+  font-weight: bold;
+  width: 4vw;
+  padding-left: 0.2vw;
+  padding-right: 0.2vw;
+}
+
+#jegytipusok {
+  text-align: left;
+  font-weight: bolder;
+  width: 14vw;
+  padding-left: 0.2vw;
+  padding-right: 0.2vw;
+  font-size: 120%;
+}
+
+/*
+table, tr, th, td{
+  border: black 1px solid;
+}
+*/
+
+#kiemelt{
+  font-weight: bold;
+  font-style: oblique;
+  text-align: center;
+}
+
+.divheader{
+  text-align: center;
+  font-size: 50px;
+  color: rgb(105, 60, 0);
+  font-weight: bold;
+}
+
+.leiras{
+  color: rgb(105, 60, 0);
+  text-align: justify;
+}
+
+.rolunk{
+  margin-bottom: 50px;
+}
+
+.btn{
+  background-image: linear-gradient(to right top, #89d971, #84ca5a);
+  border: #114700 1px solid;
+  color: #114700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.animalcard{
+  background-color: #29221A;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 260px;
+  color: #ffffff;
+  margin-left: 0.75vh;
+  margin-right: 0.75vh;
+  margin-bottom: 20px;
+}
+
+
+.animalcard h2{
+  text-align: center;
+  font-size: 20px;
+}
+
+.animalcard p{
+  text-align: center;
+  margin: 8px;
+  height: 50px;
+}
+
+.animalcard img{
+  margin: auto;
+  margin-top: 5px;
+  display:flex;
+  max-height: 200px;
+  max-width: 230px;
+}
+
+#animals{
+  justify-content: center;
+}
+
+.kategoria{
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: #fff 1px solid;
+  border-top: #fff 1px solid;
+}
+
+.adat{
+  text-align: left;
+  font-style: italic;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: #fff 1px solid;
+}
+
+.tableimg{
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.terkep{
+  border: 2px solid #7cab2a;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: auto;
+  width: 80vh;
+  height: 80vh;
+}
+
+.terkep img{
+  display: block;
   margin: 0;
 }
 
-.card p{
+#onerow{
+  height: 40px;
+}
+
+#doublerow{
+  height: 80px;
+}
+
+#fourrows{
+  height: 120px;
+}
+
+.events{
+  margin-top: 50px;
+}
+
+.eventcard{
+  background-color: #29221A;
+  overflow: hidden;
+  border-radius: 10px;
+  color: rgb(255, 236, 172);
+  height: 280px;
+  margin: 1vh;
+  padding-bottom: 10px;
+}
+
+.eventheader{
+  text-align: center;
+  font-weight: bold;
   font-size: 25px;
+  background-color: #7cab2a;
+  margin: 10px;
+  padding: 5px;
+}
+
+.eventdata{
+  margin-top: 20px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+
+.event-td{
+  margin: 20px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.eventlogo{
+  width: 42.6px;
+  height: 42.6px;
+  text-align: center;
+}
+
+.eventdescription{
+  height: 80px;
+  display: flex;
+  font-style: italic;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.eventdescription p{
+  vertical-align: bottom;
+}
+
+.eventimg img{
+  float: left;
+  margin: auto;
+  max-width: 280px;
+  max-height: 180px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid #bfdf0ad8;
+  border-radius: 5px;
+}
+
+.logo{
+  max-width: 32px;
+  max-height: 32px;
+}
+
+.locations{
+  margin-top: 50px;
+}
+
+.mapcard{
+  background-color: #29221A;
+  overflow: hidden;
+  border-radius: 10px;
+  color: rgb(255, 236, 172);
+  height: 50vh;
+  width: 35vh;
+  margin: 2vh;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.mapheader{
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #7cab2a;
+  margin: 0;
+}
+
+.mapdata{
+  font-style: italic;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.mapdata p{
   text-align: justify;
-  padding-left: 25px;
-} */
+}
 
+.mapimg{
+  justify-content: center;
+}
 
-.content{
-  position: relative;
+.mapimg img{
+  max-width: 35vh;
+  max-height: 25vh;
+}
+
+.marg {
+  margin-bottom: 60px;
+}
+
+.terms {
+  color: rgb(105, 60, 0);
+}
+
+@media (max-width: 1400px) {
+  .left{
+      display: none;
+  }
+
+  .col-lg-6{
+      width: 100vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .right{
+      display: none;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 420px) {
+  .terkep{
+      width: 40vh;
+      height: 40vh;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+  .terkep{
+      width: 60vh;
+      height: 60vh;
+  }
+}
+
+@media (max-width: 1400px) and (min-width: 1000px) {
+  .terkep{
+      width: 100vh;
+      height: 100vh;
+  }
+}
+
+@media (max-width: 1570px) and (min-width: 1401px) {
+  .terkep{
+      width: 60vh;
+      height: 60vh;
+  }
+}
+
+@media (max-width: 824px) {
+  #menu{
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #114700; 
+  border-radius: 3px;
 }
