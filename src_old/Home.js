@@ -1,11 +1,11 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './Home.css';
 import './App.css';
 
 function Home() {
-  const wallpaper = './img-wallpapers/main.png'
   return (
-    <div style={{backgroundImage: 'wallpaper'}}>
+    <div>
       <div id="menu">
         <ul>
           <li className="active"><strong>Főoldal</strong></li>
