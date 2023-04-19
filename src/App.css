@@ -69,7 +69,35 @@ h1 {
   margin-top: 5px;
   display:flex;
   max-height: 200px;
-  max-width: 400px;
+  max-width: 250px;
+}
+
+.card-header{
+  margin: 0;
+  font-size: 40px;
+  text-align: center;
+  background-color: #7cab2a;
+  margin: 10px;
+  padding: 5px;
+}
+
+.card p{
+  font-size: 1rem;
+  text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 8px;
+  text-align: left;
+}
+
+.card img{
+  float: left;
+  margin: auto;
+  display:flex;
+  width: 400px;
+  height: 250px;
+  margin: 10px;
+  border: 2px solid #bfdf0ad8;
+  border-radius: 5px;
 }
 
 .welcome{

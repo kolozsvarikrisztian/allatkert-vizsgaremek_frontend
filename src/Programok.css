@@ -92,46 +92,8 @@ footer{
     flex-wrap: wrap;
 }
 
-.card{
-    background-color: #29221A;
-    overflow: hidden;
-    border-radius: 10px;
-    width: 1000px;
-    margin-left: 20px;
-    margin-right: 20px;
-    /* margin-top: 30px; */
-    margin-bottom: 30px;
-    color: rgb(255, 236, 172);
-    height: 360px;
-}
 
-.card-header{
-    margin: 0;
-    font-size: 40px;
-    text-align: center;
-    background-color: #7cab2a;
-    margin: 10px;
-    padding: 5px;
-}
 
-.card p{
-    font-size: 25px;
-    text-align: justify;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-right: 8px;
-    text-align: left;
-}
-
-.card img{
-    float: left;
-    margin: auto;
-    display:flex;
-    width: 400px;
-    height: 250px;
-    margin: 10px;
-    border: 2px solid #bfdf0ad8;
-    border-radius: 5px;
-}
 
 body{
     /* background-image: url("/img-wallpapers/programok.png"); */

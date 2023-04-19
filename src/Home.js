@@ -3,17 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css';
 import './App.css';
 
+
 function Home() {
   return (
     <div>
-      <div id="menu">
-        <ul>
-          <li className="active"><strong>Főoldal</strong></li>
-          <li><a href="terms.html"><strong>Szabályzat</strong></a></li>
-          <li><a href="map.html"><strong>Térkép</strong></a></li>
-          <li><a href="galeria.html"><strong>Galéria</strong></a></li>
-        </ul>
-      </div>
+      
       <div className="welcome">
         <h1>Erdőkilátó Állatkert és Szabadidő Park</h1>
         <h4 id="leiras">Üdvözöljük az Erdőkilátó Állatkert és Szabadidő Park oldalán!</h4>
@@ -29,7 +23,7 @@ function Home() {
               <p>Információs vonal: <i>+36 / 66 / 111-1234</i></p>
             </div>
             <div className="jegyek">
-              <p className="leftdivheader"><strong>Tájékoztató a jelenlegi jegyárainkról</strong></p>i
+              <p className="leftdivheader"><strong>Tájékoztató a jelenlegi jegyárainkról</strong></p>
               <table className="jegy">
                 <tbody><tr>
                     <th id="jegytipusok">Jegytípusok</th>
@@ -132,7 +126,7 @@ function Home() {
                 <h2 className="divheader">Állataink</h2>
                 <div className="animalcard">
                   <h2>Gímszarvas</h2>
-                  <div className="tableimg"><img src="img-animal/gímszarvas.jpg" alt="" /></div>
+                  <div className="tableimg"><img src={require('./img-animal/gímszarvas.jpg')} alt="" /></div>
                   <table>
                     <tbody><tr>
                         <td id="onerow" className="kategoria">Becenév</td>
@@ -158,7 +152,7 @@ function Home() {
                 </div>
                 <div className="animalcard">
                   <h2>Hullámos papagáj</h2>
-                  <div className="tableimg"><img src="img-animal/hullamospapagaj.jpg" alt="" /></div>
+                  <div className="tableimg"><img src={require('./img-animal/hullamospapagaj.jpg')} alt="" /></div>
                   <div>
                     <table>
                       <tbody><tr>
@@ -186,7 +180,7 @@ function Home() {
                 </div>
                 <div className="animalcard">
                   <h2>Indiai elefánt</h2>
-                  <div className="tableimg"><img src="img-animal/indiaielefant.jpg" alt="" /></div>
+                  <div className="tableimg"><img src={require('./img-animal/indiaielefant.jpg')} alt="" /></div>
                   <div>
                     <table>
                       <tbody><tr>
@@ -214,7 +208,7 @@ function Home() {
                 </div>
                 <div className="animalcard">
                   <h2>Jegesmedve</h2>
-                  <div className="tableimg"><img src="img-animal/jegesmedve.jpg" alt="" /></div>
+                  <div className="tableimg"><img src={require('./img-animal/jegesmedve.jpg')} alt="" /></div>
                   <div>
                     <table>
                       <tbody><tr>
@@ -242,7 +236,7 @@ function Home() {
                 </div>
                 <div className="animalcard">
                   <h2>Kanadai hiúz</h2>
-                  <div className="tableimg"><img src="img-animal/kanadaihiúz.jpg" alt="" /></div>
+                  <div className="tableimg"><img src={require('./img-animal/kanadaihiúz.jpg')} alt="" /></div>
                   <div>
                     <table>
                       <tbody><tr>
@@ -270,7 +264,7 @@ function Home() {
                 </div>
                 <div className="animalcard">
                   <h2>Leopárd</h2>
-                  <div className="tableimg"><img src="img-animal/leopard.jpg" alt="" /></div>
+                  <div className="tableimg"><img src={require('./img-animal/leopard.jpg')} alt="" /></div>
                   <div>
                     <table>
                       <tbody><tr>
@@ -303,7 +297,7 @@ function Home() {
             <h2 className="divheader">Friss hírek</h2>
             <div className="row">
               <div className="card col-lg-4" style={{width: '18rem'}}>
-                <img className="card-img-top" src="img-news/minielephant2.jpg" alt="Elefánt" />
+                <img className="card-img-top" src={require('./img-news/minielephant2.jpg')} alt="Elefánt" />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Kiselefánt látogatása</strong></h5>
                   <p className="card-text">2023. február 17.-től a kiselefánt látogatása is elérhető a látógatóink számára!</p>
@@ -311,7 +305,7 @@ function Home() {
                 </div>
               </div>
               <div className="card col-lg-4" style={{width: '18rem'}}>
-                <img className="card-img-top" src="img-news/minielephant.jpg" alt="Elefánt" />
+                <img className="card-img-top" src={require('./img-news/minielephant.jpg')} alt="Elefánt" />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Elnevezték az elefántot</strong></h5>
                   <p className="card-text">A látogatók által beküldött nevekből első helyen végzett a Suzy név, így a kiselefánt azt a nevet kapta.</p>
@@ -319,7 +313,7 @@ function Home() {
                 </div>
               </div>
               <div className="card col-lg-4" style={{width: '18rem'}}>
-                <img className="card-img-top" src="img-news/minielephant1.jpg" alt="Elefánt" />
+                <img className="card-img-top" src={require('./img-news/minielephant1.jpg')} alt="Elefánt" />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Új kiselefánt született</strong></h5>
                   <p className="card-text">2023. január 28.-án nőstény kiselefánt született az állatkertünkbe.</p>

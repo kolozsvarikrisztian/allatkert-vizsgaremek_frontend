@@ -25,14 +25,7 @@ import Home from "./Home";
 function Gallery() {
     return (
         <div>
-          <div id="menu">
-            <ul>
-              <li><a href="index.html"><strong>Főoldal</strong></a></li>
-              <li><a href="terms.html"><strong>Szabályzat</strong></a></li>
-              <li><a href="map.html"><strong>Térkép</strong></a></li>
-              <li className="active"><strong>Galéria</strong></li>
-            </ul>
-          </div>
+          
           <div className="welcome">
             <h1>Erdőkilátó Állatkert és Szabadidő Park</h1>
             <h4 id="leiras">Üdvözöljük az Erdőkilátó Állatkert és Szabadidő Park oldalán!</h4>
