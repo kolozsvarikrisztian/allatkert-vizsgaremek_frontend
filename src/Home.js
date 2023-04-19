@@ -1,12 +1,12 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import background from "./img-wallpapers/main.png";
 
 
 function Home() {
-  const wallpaper = './img-wallpapers/main.png'
   return (
-    <div>
+    <div style={{ backgroundImage: `url(${background})` }}>
       
       <div className="welcome">
         <h1>Erdőkilátó Állatkert és Szabadidő Park</h1>

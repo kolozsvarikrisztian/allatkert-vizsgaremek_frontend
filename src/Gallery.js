@@ -1,6 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import background from "./img-wallpapers/main.png";
 
 
 import camping_day from './img-projekt/camping_day.jpeg';
@@ -23,7 +24,7 @@ import Home from "./Home";
 
 function Gallery() {
     return (
-        <div>
+        <div style={{ backgroundImage: `url(${background})` }}>
           
           <div className="welcome">
             <h1>Erdőkilátó Állatkert és Szabadidő Park</h1>
