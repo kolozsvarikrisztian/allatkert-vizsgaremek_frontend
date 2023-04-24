@@ -12,7 +12,7 @@ function Home() {
     <img src={require("./img/logo.png")} className="col-lg-8" alt="" />
     <div className="col-lg-2 welcometext">
       <h4>Üdvözöljük az Erdőkilátó Állatkert és Szabadidő Park oldalán!</h4>
-      <h4>Kellemes kikapcsolódást és böngészést kíván az állatkert egész csapata, ha tehetik akkor látogassanak el Hozzánk személyesen is!</h4>
+      <h4>Kellemes kikapcsolódást és böngészést kíván az állatkert egész csapata.</h4>
     </div>
   </div>
       <div className="container-fluid">
