@@ -115,7 +115,7 @@ function Terms() {
 
           <div className="col-lg-6 terms">
             <h2><b>Az Erdőkilátó Állatkert és Szabadidő Park szabályai</b></h2>
-            <p>Az állatkertre vonatkozó szabályok:</p>
+            <p><b>Az állatkertre vonatkozó szabályok:</b></p>
             <ul>
               <li>Az állatkertben lévő állatokat kizárólag csak a helyszínen megvásárolt ZOO csemegével szabad etetni, az otthonról hozott ételekkel, maradékokkal szigorúan TILOS!</li>
               <li>Az állatok simogatásra csak a kijelölt helyszíneken van lehetőség. A kiskorú gyermekek csak szülői felügyelettel simogathatják meg az állatainkat!</li>
@@ -123,7 +123,7 @@ function Terms() {
               <li>A park teljes területén a szemetelés, rongálás, a berendezések szabálytalan használata TILOS!</li>
               <li>Dohányozni, gyújtóeszközt használni csak, az arra kijelölt, táblával jelzett helyen szabad, egyébként SZIGORÚAN TILOS!</li>
             </ul>
-            <p>A szabadidőparkra vonatkozó szabályok:</p>
+            <p><b>A szabadidőparkra vonatkozó szabályok:</b></p>
             <ul>
               <li>A szabadidőparkba való belépéssel, a jegyek megvásárlásával, a szolgáltatások igénybevételével tudomásul veszed a házirendet, és magadra nézve kötelezően elfogadod az ismertetett biztonsági szabályokat is. E szabályokat minden esetben be kell tartanod és másokkal is be kell tartatnod.</li>
               <li>Szolgáltatásainkat mindenki a saját felelősségére veheti igénybe, saját és mások testi épségére vigyázva! Kiskorú vendégeink testi épségéért, valamint az általuk esetlegesen okozott balesetekért/károkért a szülő/ gondviselő visel felelősséget, még abban az esetben is, ha nincs jelen.</li>
@@ -132,14 +132,14 @@ function Terms() {
               <li>Dohányozni, gyújtóeszközt használni csak, az arra kijelölt, táblával jelzett helyen szabad, egyébként SZIGORÚAN TILOS!</li>
               <li>A szabadidőpark használata csak saját felelőségre használható!</li>
             </ul>
-            <p>Az erdőben kirándulók csak a kijelölt tűzrakóhelyeken gyújthatnak tüzet az alábbi szabályok betartása mellett:</p>
+            <p><b>Az erdőben kirándulók csak a kijelölt tűzrakóhelyeken gyújthatnak tüzet az alábbi szabályok betartása mellett:</b></p>
             <ul>
               <li>a tűz meggyújtása előtt a tűzrakóhely környékét meg kell tisztítani a levelektől, faágaktól annak érdekében, hogy a tűz ne terjedhessen át az erdőre;</li>
               <li>a tüzet nem szabad felügyelet nélkül hagyni, de a még ki nem hűlt parazsat, hamu sem;</li>
               <li>amint feltámad a szél, a tüzet el kell oltani: gondoskodni kell arról, hogy készenlétben legyen a tűz oltására alkalmas anyag, eszköz (pl. víz, homok, lapát);</li>
               <li>az égetés befejezése után a tüzet gondosan el kell oltani, meg kell győződni arról, hogy tényleg elaludt, a hamura távozás előtt lehetőleg földet kell szórni.</li>
             </ul>
-            <p>Nyitvatartás a kihelyezett tájékoztató szerint!</p>
+            <p><b>Nyitvatartás a kihelyezett tájékoztató szerint!</b></p>
           </div>
 
           <div className=" right col-lg-3">
