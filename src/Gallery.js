@@ -115,11 +115,11 @@ function Gallery() {
               <h4 id="kiemelt">A csoportoknak előzetes bejelentkezés, illetve időpontegyeztetés szükséges azért, hogy elkerüljük a csoportok ütközését, és ezáltal kialakult kellemetlenségeket.</h4>
               <p className="leftdivheader"><strong>Fizetési lehetőségek</strong></p>
               <ul>
-                <li id="fizetesimod">Készpénz (HUF)</li>
-                <li id="fizetesimod">Bankkártyás fizetés (Mastercard, Visa, American Express)</li>
-                <li id="fizetesimod">Apple Pay, Simple Pay</li>
-                <li id="fizetesimod">SZÉP kártya (OTP, MKB, K&amp;H)</li>
-                <li id="fizetesimod">Ajándékkártya</li>
+                <li>Készpénz (HUF)</li>
+                <li>Bankkártyás fizetés (Mastercard, Visa, American Express)</li>
+                <li>Apple Pay, Simple Pay</li>
+                <li>SZÉP kártya (OTP, MKB, K&amp;H)</li>
+                <li>Ajándékkártya</li>
               </ul>
               <h4 id="kiemelt">A számlaigényét kérjük, hogy előre jelezze. A számlát a pénztárnál tudja majd átvenni.</h4>
             </div>
