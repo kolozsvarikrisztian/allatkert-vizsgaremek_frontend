@@ -3,6 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import background from "./img-wallpapers/terms.png";
 
+import minielephant from './img-news/minielephant.jpg';
+import minielephant1 from './img-news/minielephant1.jpg';
+import minielephant2 from './img-news/minielephant2.jpg';
+
 function Terms() {
   return (
     <div style={{ backgroundImage: `url(${background})` }}>
@@ -26,7 +30,7 @@ function Terms() {
             <div className="jegyek">
               <p className="leftdivheader"><strong>Tájékoztató a jelenlegi jegyárainkról</strong></p>
               <table className="jegy">
-                <tr>
+              <tr>
                   <th id="jegytipusok">Jegytípusok</th>
                   <th id="arak">Ár</th>
                 </tr>
@@ -142,7 +146,7 @@ function Terms() {
             <div className="row">
 
               <div className="card col-lg-4"  style={{ width: '18rem' }}>
-                <img className="card-img-top" src="img-news/minielephant2.jpg" alt="Elefánt" />
+                <img className="card-img-top" src={minielephant2} alt="Elefánt" />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Kiselefánt látogatása</strong></h5>
                   <p className="card-text">2023. február 17.-től a kiselefánt látogatása is elérhető a látógatóink számára!</p>
@@ -151,7 +155,7 @@ function Terms() {
               </div>
 
               <div className="card col-lg-4"  style={{ width: '18rem' }}>
-                <img className="card-img-top" src="img-news/minielephant.jpg" alt="Elefánt" />
+                <img className="card-img-top" src={minielephant} alt="Elefánt" />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Elnevezték az elefántot</strong></h5>
                   <p className="card-text">A látogatók által beküldött nevekből első helyen végzett a Suzy név, így a kiselefánt azt a nevet kapta.</p>
@@ -160,7 +164,7 @@ function Terms() {
               </div>
 
               <div className="card col-lg-4"  style={{ width: '18rem' }}>
-                <img className="card-img-top" src="img-news/minielephant1.jpg" alt="Elefánt" />
+                <img className="card-img-top" src={minielephant1} alt="Elefánt" />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Új kiselefánt született</strong></h5>
                   <p className="card-text">2023. január 28.-án nőstény kiselefánt született az állatkertünkbe.</p>
@@ -173,7 +177,7 @@ function Terms() {
         </div>
       </div>
       <footer>
-        <div className="text-center p-3 text-light" style="background-color: #29221A; left: 0; bottom: 0; width: 100%; position: fixed;">
+        <div className="text-center p-3 text-light" style={{ backgroundColor: '#29221A', left: 0, bottom: 0, width: '100%', position: 'fixed' }}>
           Készítette: Nagy Tibor, Tóth Tamás Levente, Kolozsvári László Krisztián
         </div>
         {/* Copyright */}

@@ -3,6 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import background from "./img-wallpapers/locations.png";
 
+import minielephant from './img-news/minielephant.jpg';
+import minielephant1 from './img-news/minielephant1.jpg';
+import minielephant2 from './img-news/minielephant2.jpg';
+
 function Map() {
   return (
     <div style={{ backgroundImage: `url(${background})` }}>
@@ -125,7 +129,7 @@ function Map() {
                       <div className="eventcard">
                         <p className="eventheader">Gyalogtúra</p>
                         <div className="eventimg">
-                          <img src="img-programok/gyalogtura.jpg" alt="" />
+                          <img src={require('./img-programok/gyalogtura.jpg')} alt="" />
                         </div>
                         <table className="eventdata">
                           <tr>
@@ -149,7 +153,7 @@ function Map() {
                       <div className="eventcard">
                         <p className="eventheader">Jóga</p>
                         <div className="eventimg">
-                          <img src="img-programok/joga.jpg" className="eventimg" alt="" />
+                          <img src={require('./img-programok/joga.jpg')} className="eventimg" alt="" />
                         </div>
                         <table className="eventdata">
                           <tr>
@@ -173,7 +177,7 @@ function Map() {
                       <div className="eventcard">
                         <p className="eventheader">Barkácsolás</p>
                         <div className="eventimg">
-                          <img src="img-programok/barkacsolas.jpg" className="eventimg" alt="" />
+                          <img src={require('./img-programok/barkacsolas.jpg')} className="eventimg" alt="" />
                         </div>
                         <table className="eventdata">
                           <tr>
@@ -197,7 +201,7 @@ function Map() {
                       <div className="eventcard">
                         <p className="eventheader">Mountain bike / BMX verseny</p>
                         <div className="eventimg">
-                          <img src="img-programok/mtb.jpeg" className="eventimg" alt="" />
+                          <img src={require('./img-programok/mtb.jpeg')} className="eventimg" alt="" />
                         </div>
                         <table className="eventdata">
                           <tr>
@@ -226,7 +230,7 @@ function Map() {
             <div className="row">
 
               <div className="card col-lg-4"  style={{ width: '18rem' }}>
-                <img className="card-img-top" src="img-news/minielephant2.jpg" alt="Elefánt" />
+                <img className="card-img-top" src={minielephant2} alt="Elefánt" />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Kiselefánt látogatása</strong></h5>
                   <p className="card-text">2023. február 17.-től a kiselefánt látogatása is elérhető a látógatóink számára!</p>
@@ -235,7 +239,7 @@ function Map() {
               </div>
 
               <div className="card col-lg-4"  style={{ width: '18rem' }}>
-                <img className="card-img-top" src="img-news/minielephant.jpg" alt="Elefánt" />
+                <img className="card-img-top" src={minielephant} alt="Elefánt" />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Elnevezték az elefántot</strong></h5>
                   <p className="card-text">A látogatók által beküldött nevekből első helyen végzett a Suzy név, így a kiselefánt azt a nevet kapta.</p>
@@ -244,7 +248,7 @@ function Map() {
               </div>
 
               <div className="card col-lg-4" style={{ width: '18rem' }}>
-                <img className="card-img-top" src="img-news/minielephant1.jpg" alt="Elefánt" />
+                <img className="card-img-top" src={minielephant1} alt="Elefánt" />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Új kiselefánt született</strong></h5>
                   <p className="card-text">2023. január 28.-án nőstény kiselefánt született az állatkertünkbe.</p>
@@ -265,7 +269,7 @@ function Map() {
             <div className="mapcard">
               <div className="mapimg">
                 <p className="mapheader">Főbejárat, pénztár</p>
-                <img src="img-projekt/checkout2.jpg" alt="" />
+                <img src={require('./img-projekt/checkout2.jpg')} alt="" />
               </div>
               <div className="mapdata">
                 <p>A látogatóink a főbejáratot átlépve azonnal a pénztárunkkal találkoznak, ahol meg tudják váltani a jegyeiket, illetve tájékoztatást kérhetnek.</p>
@@ -275,7 +279,7 @@ function Map() {
             <div className="mapcard">
               <div className="mapimg">
                 <p className="mapheader">Állatkert</p>
-                <img src="img-projekt/zoo.jpeg" alt="" />
+                <img src={require('./img-projekt/zoo.jpeg')} alt="" />
               </div>
               <div className="mapdata">
                 <p>Az állatkert parkunk egyik fő attrakciója, amely a park területének 1/4-ét tölti ki. Számos kontinensekről származó állatfaj található itt, amelyeket naponta több száz látogató csodál meg az ország minden pontjából. Az állatok földrészenként csoportosított kifutókban tekinthetőek meg. Az állatkerten belül számos helyszín van kijelölve, ahol állatsimogatásra és etetésre van lehetőségük a látogatóknak.</p>
@@ -285,7 +289,7 @@ function Map() {
             <div className="mapcard">
               <div className="mapimg">
                 <p className="mapheader">Tópart</p>
-                <img src="img-projekt/lake.jpeg" alt="" />
+                <img src={require('./img-projekt/lake.jpeg')} alt="" />
               </div>
               <div className="mapdata">
                 <p>A kikapcsolódásra vágyó látogatóknak a park strandja a legideálisabb hely. A partszakaszon egy ételbár üzemel minden nap reggel 7 órától éjfélig, amely lángost, pizzát és különleges koktélokat kínál. Az ételbár mellett egy vízibicikli kölcsönző is üzemel reggel 7 órától délután 4 óráig. A tó fürdésre, a tópart sátrazásra és tábortűzrakásra is ideális, természetesen szigorú szabályok mellett.</p>
@@ -295,7 +299,7 @@ function Map() {
             <div className="mapcard">
               <div className="mapimg">
                 <p className="mapheader">Erdő</p>
-                <img src="img-projekt/path_forest.jpeg" alt="" />
+                <img src={require('./img-projekt/path_forest.jpeg')} alt="" />
               </div>
               <div className="mapdata">
                 <p>A parkerdőben kitaposott ösvényeken haladva számos facsoportokat tekinthetnek meg a látogatók. Az erdő jelentős része alkalmas a sátrazásra. A kerékpárral érkező látogatóknak lehetőségük van kipróbálni a crosspályát, melynek domborzata földkupacokból kialakított ugratókból állnak. A rámpák magassága a három métert is meghaladják.</p>
@@ -305,7 +309,7 @@ function Map() {
             <div className="mapcard">
               <div className="mapimg">
                 <p className="mapheader">Étterem</p>
-                <img src="img-projekt/restaurant_forest.jpeg" alt="" />
+                <img src={require('./img-projekt/restaurant_forest.jpeg')} alt="" />
               </div>
               <div className="mapdata">
                 <p>A park étterme a tölgyerdő mélyén az állatkert és a tópart látványától elszigetelve helyezkedik el, azonban a háromemeletes épület teraszairól a körülötte lévő erdő elképesztő látványt biztosít vendégeinek.</p>
@@ -315,7 +319,7 @@ function Map() {
             <div className="mapcard">
               <div className="mapimg">
                 <p className="mapheader">Játszótér</p>
-                <img src="img-projekt/playground.jpg" alt="" />
+                <img src={require('./img-projekt/playground.jpg')} alt="" />
               </div>
               <div className="mapdata">
                 <p>A kisgyermekekre gondolva a park területén megtalható egy játszótér is, ahol egészen 2-12 éves korig lehet játszani, fejleszteni a képességeiket. A kisebb korosztály kizárólag szülői felügyelettel tartózkodhat a játszótér területén.</p>
@@ -325,7 +329,7 @@ function Map() {
             <div className="mapcard">
               <div className="mapimg">
                 <p className="mapheader">ZOO csemege</p>
-                <img src="img-projekt/zoovegetables.jpg" alt="" />
+                <img src={require('./img-projekt/zoovegetables.jpg')} alt="" />
               </div>
               <div className="mapdata">
                 <p>A ZOO csemege standnál lehet megvásárolni az eledelt az állatoknak és kizárólag csak azzal lehet őket etetni, a kijelölt helyen.</p>
@@ -335,7 +339,7 @@ function Map() {
             <div className="mapcard">
               <div className="mapimg">
                 <p className="mapheader">Sátrazás, kemping</p>
-                <img src="img-projekt/camping_day.jpeg" alt="" />
+                <img src={require('./img-projekt/camping_day.jpeg')} alt="" />
               </div>
               <div className="mapdata">
                 <p>A látogatók részére lehetőség van kempingezni, sátorozni. Ez a helyszín csak nyár folyamán elérhető akkor, mikor egymást követő több napon is tiszta az időjárás.</p>
@@ -345,7 +349,7 @@ function Map() {
             <div className="mapcard">
               <div className="mapimg">
                 <p className="mapheader">Tábortűz</p>
-                <img src="img-projekt/campfire.jpeg" alt="" />
+                <img src={require('./img-projekt/campfire.jpeg')} alt="" />
               </div>
               <div className="mapdata">
                 <p>A kempingezők részére az este folyamán tábortűz lehetőség is van, amelyet kizárólag a szigorú szabály betartásával lehet elkezdeni.</p>
@@ -355,7 +359,7 @@ function Map() {
             <div className="mapcard">
               <div className="mapimg">
                 <p className="mapheader">Ajándékbolt</p>
-                <img src="img-projekt/giftshop.jpg" alt="" />
+                <img src={require('./img-projekt/giftshop.jpg')} alt="" />
               </div>
               <div className="mapdata">
                 <p>A park területén több helyen elhelyeztünk kis ajándékstandokat, ahol különböző ajándékokat, képeslapokat, hűtőmágneseket és további kiegészítőket vásárolhattok meg saját részre, vagy pedig egy kedves embernek ajándékba.</p>
@@ -369,7 +373,7 @@ function Map() {
 
 
       <footer>
-        <div className="text-center p-3 text-light" style="background-color: #29221A; left: 0; bottom: 0; width: 100%; position: fixed;">
+        <div className="text-center p-3 text-light" style={{ backgroundColor: '#29221A', left: 0, bottom: 0, width: '100%', position: 'fixed' }}>
           Készítette: Nagy Tibor, Tóth Tamás Levente, Kolozsvári László Krisztián
         </div>
         {/* Copyright */}
