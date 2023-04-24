@@ -9,7 +9,7 @@ import minielephant2 from './img-news/minielephant2.jpg';
 
 function Terms() {
   return (
-    <div style={{ backgroundImage: `url(${background})` }}>
+    <div style={{ backgroundImage: `url(${background})`,backgroundSize: `100vh`, backgroundPosition: `cover`, backgroundRepeat: `repeat` }}>
 
 
   <div className="welcome">

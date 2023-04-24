@@ -6,7 +6,7 @@ import background from "./img-wallpapers/main.png";
 
 function Home() {
   return (
-    <div style={{ backgroundImage: `url(${background})` }}>
+    <div style={{ backgroundImage: `url(${background})`,backgroundSize: `100vh`, backgroundPosition: `cover`, backgroundRepeat: `repeat` }}>
 
 <div className="welcome">
     <img src={require("./img/logo.png")} className="col-lg-8" alt="" />
