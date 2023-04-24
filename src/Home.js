@@ -7,13 +7,13 @@ import background from "./img-wallpapers/main.png";
 function Home() {
   return (
     <div style={{ backgroundImage: `url(${background})` }}>
-      
+
       <div className="welcome">
         <h1>Erdőkilátó Állatkert és Szabadidő Park</h1>
         <h4 id="leiras">Üdvözöljük az Erdőkilátó Állatkert és Szabadidő Park oldalán!</h4>
         <h4 id="leiras">Kellemes kikapcsolódást és böngészést kíván az állatkert egész csapata, <br /> ha tehetik akkor látogassanak el Hozzánk személyesen is!</h4>
       </div>
-      <div className="container-fluid">  
+      <div className="container-fluid">
         <div className="content">
           <div className="col-lg-3 left">
             <div className="contact">
@@ -26,9 +26,9 @@ function Home() {
               <p className="leftdivheader"><strong>Tájékoztató a jelenlegi jegyárainkról</strong></p>
               <table className="jegy">
                 <tbody><tr>
-                    <th id="jegytipusok">Jegytípusok</th>
-                    <th id="arak">Ár</th>
-                  </tr>
+                  <th id="jegytipusok">Jegytípusok</th>
+                  <th id="arak">Ár</th>
+                </tr>
                   <tr>
                     <td id="jegytipus">Gyerek (3-14 év)</td>
                     <td id="ar">3500 Ft</td>
@@ -55,9 +55,9 @@ function Home() {
                 </tbody></table>
               <table className="jegy">
                 <tbody><tr>
-                    <th id="jegytipusok">Kedvezményes, csoportos jegytípusok</th>
-                    <th id="arak">Ár</th>
-                  </tr>
+                  <th id="jegytipusok">Kedvezményes, csoportos jegytípusok</th>
+                  <th id="arak">Ár</th>
+                </tr>
                   <tr>
                     <td id="jegytipus">2 felnőtt + 1 gyermek</td>
                     <td id="ar">12500 Ft</td>
@@ -129,9 +129,9 @@ function Home() {
                   <div className="tableimg"><img src={require('./img-animal/gímszarvas.jpg')} alt="" /></div>
                   <table>
                     <tbody><tr>
-                        <td id="onerow" className="kategoria">Becenév</td>
-                        <td id="onerow" className="adat">Gombi</td>
-                      </tr>
+                      <td id="onerow" className="kategoria">Becenév</td>
+                      <td id="onerow" className="adat">Gombi</td>
+                    </tr>
                       <tr>
                         <td id="onerow" className="kategoria">Életkor</td>
                         <td id="onerow" className="adat">10 év</td>
@@ -156,9 +156,9 @@ function Home() {
                   <div>
                     <table>
                       <tbody><tr>
-                          <td id="onerow" className="kategoria">Becenév</td>
-                          <td id="onerow" className="adat">Arász</td>
-                        </tr>
+                        <td id="onerow" className="kategoria">Becenév</td>
+                        <td id="onerow" className="adat">Arász</td>
+                      </tr>
                         <tr>
                           <td id="onerow" className="kategoria">Életkor</td>
                           <td id="onerow" className="adat">5 év</td>
@@ -184,9 +184,9 @@ function Home() {
                   <div>
                     <table>
                       <tbody><tr>
-                          <td id="onerow" className="kategoria">Becenév</td>
-                          <td id="onerow" className="adat">Bence</td>
-                        </tr>
+                        <td id="onerow" className="kategoria">Becenév</td>
+                        <td id="onerow" className="adat">Bence</td>
+                      </tr>
                         <tr>
                           <td id="onerow" className="kategoria">Életkor</td>
                           <td id="onerow" className="adat">26 év</td>
@@ -212,9 +212,9 @@ function Home() {
                   <div>
                     <table>
                       <tbody><tr>
-                          <td id="onerow" className="kategoria">Becenév</td>
-                          <td id="onerow" className="adat">Lackó</td>
-                        </tr>
+                        <td id="onerow" className="kategoria">Becenév</td>
+                        <td id="onerow" className="adat">Lackó</td>
+                      </tr>
                         <tr>
                           <td id="onerow" className="kategoria">Életkor</td>
                           <td id="onerow" className="adat">14 év</td>
@@ -240,9 +240,9 @@ function Home() {
                   <div>
                     <table>
                       <tbody><tr>
-                          <td id="onerow" className="kategoria">Becenév</td>
-                          <td id="onerow" className="adat">Kancsi</td>
-                        </tr>
+                        <td id="onerow" className="kategoria">Becenév</td>
+                        <td id="onerow" className="adat">Kancsi</td>
+                      </tr>
                         <tr>
                           <td id="onerow" className="kategoria">Életkor</td>
                           <td id="onerow" className="adat">10 év</td>
@@ -268,9 +268,9 @@ function Home() {
                   <div>
                     <table>
                       <tbody><tr>
-                          <td id="onerow" className="kategoria">Becenév</td>
-                          <td id="onerow" className="adat">Foltos</td>
-                        </tr>
+                        <td id="onerow" className="kategoria">Becenév</td>
+                        <td id="onerow" className="adat">Foltos</td>
+                      </tr>
                         <tr>
                           <td id="onerow" className="kategoria">Életkor</td>
                           <td id="onerow" className="adat">8 év</td>
@@ -296,7 +296,7 @@ function Home() {
           <div className="right col-lg-3">
             <h2 className="divheader">Friss hírek</h2>
             <div className="row">
-              <div className="card col-lg-4" style={{width: '18rem'}}>
+              <div className="card col-lg-4" style={{ width: '18rem' }}>
                 <img className="card-img-top" src={require('./img-news/minielephant2.jpg')} alt="Elefánt" />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Kiselefánt látogatása</strong></h5>
@@ -304,7 +304,7 @@ function Home() {
                   <a href="#" className="btn btn-primary">Bővebb információ</a>
                 </div>
               </div>
-              <div className="card col-lg-4" style={{width: '18rem'}}>
+              <div className="card col-lg-4" style={{ width: '18rem' }}>
                 <img className="card-img-top" src={require('./img-news/minielephant.jpg')} alt="Elefánt" />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Elnevezték az elefántot</strong></h5>
@@ -312,7 +312,7 @@ function Home() {
                   <a href="#" className="btn btn-primary">Bővebb információ</a>
                 </div>
               </div>
-              <div className="card col-lg-4" style={{width: '18rem'}}>
+              <div className="card col-lg-4" style={{ width: '18rem' }}>
                 <img className="card-img-top" src={require('./img-news/minielephant1.jpg')} alt="Elefánt" />
                 <div className="card-body">
                   <h5 className="card-title"><strong>Új kiselefánt született</strong></h5>
@@ -325,7 +325,7 @@ function Home() {
         </div>
       </div>
       <footer>
-        <div className="text-center p-3 text-light" style={{backgroundColor: '#29221A', left: 0, bottom: 0, width: '100%', position: 'fixed'}}>
+        <div className="text-center p-3 text-light" style={{ backgroundColor: '#29221A', left: 0, bottom: 0, width: '100%', position: 'fixed' }}>
           Készítette: Nagy Tibor, Tóth Tamás Levente, Kolozsvári László Krisztián
         </div>
         {/* Copyright */}
