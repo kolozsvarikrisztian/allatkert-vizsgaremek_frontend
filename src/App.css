@@ -49,6 +49,7 @@ h1 {
   text-align: center;
   font-size: 70px;
   font-weight: bold;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -68,40 +69,31 @@ h1 {
   margin-top: 5px;
   display:flex;
   max-height: 200px;
-  max-width: 250px;
-}
-
-.card-header{
-  margin: 0;
-  font-size: 40px;
-  text-align: center;
-  background-color: #7cab2a;
-  margin: 10px;
-  padding: 5px;
-}
-
-.card p{
-  font-size: 1rem;
-  text-align: justify;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-right: 8px;
-  text-align: left;
-}
-
-.card img{
-  float: left;
-  margin: auto;
-  display:flex;
-  width: 400px;
-  height: 250px;
-  margin: 10px;
-  border: 2px solid #bfdf0ad8;
-  border-radius: 5px;
+  max-width: 400px;
 }
 
 .welcome{
-  text-align: center;
+  display: flex;
   color: rgb(105, 60, 0);
+  padding-top: 20px;
+  max-height: 20vw;
+}
+
+.welcome img{
+  max-height: 20vw;
+  max-width: 20vw;
+}
+
+.welcometext{
+  width: 80vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+.welcometext h4{
+  font-weight: bold;
+  font-size: 2vw;
+  text-align: center;
 }
 
 .left{
@@ -287,6 +279,8 @@ table, tr, th, td{
 .terkep img{
   display: block;
   margin: 0;
+  max-width: 80vh;
+  max-height: 80vh;
 }
 
 #onerow{
@@ -445,10 +439,22 @@ table, tr, th, td{
   }
 }
 
+@media (max-width: 820px) {
+  .eventcard{
+      overflow-y: scroll;
+      overflow-x: scroll;
+  }
+}
+
 @media (max-width: 800px) and (min-width: 420px) {
   .terkep{
       width: 40vh;
       height: 40vh;
+  }
+
+  .terkep img{
+      max-width: 40vh;
+      max-height: 40vh;
   }
 }
 
@@ -457,6 +463,11 @@ table, tr, th, td{
       width: 60vh;
       height: 60vh;
   }
+
+  .terkep img{
+      max-width: 60vh;
+      max-height: 60vh;
+  }
 }
 
 @media (max-width: 1400px) and (min-width: 1000px) {
@@ -464,12 +475,22 @@ table, tr, th, td{
       width: 100vh;
       height: 100vh;
   }
+
+  .terkep img{
+      max-width: 100vh;
+      max-height: 100vh;
+  }
 }
 
 @media (max-width: 1570px) and (min-width: 1401px) {
   .terkep{
       width: 60vh;
       height: 60vh;
+  }
+
+  .terkep img{
+      max-width: 60vh;
+      max-height: 60vh;
   }
 }
 
