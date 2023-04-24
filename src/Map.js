@@ -114,7 +114,7 @@ function Map() {
               <div className="content-map">
                 <h2 className="divheader">Térkép</h2>
                 <div className="terkep">
-                  <img src="img-map/map.png" alt="" />
+                  <img src={require('./img-map/map.png')} alt="" />
                 </div>
               </div>
 
