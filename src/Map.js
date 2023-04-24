@@ -26,6 +26,7 @@ function Map() {
             <div className="contact">
               <h2 className="divheader">Kapcsolat</h2>
               <p>Cím: <i>5520 Szeghalom, Állatkert utca 1-7.</i></p>
+              <p>E-mail: <i>erdokilato@gmail.com</i></p>
               <p>Központi vonal: <i>+36 / 66 / 000-1234</i></p>
               <p>Információs vonal: <i>+36 / 66 / 111-1234</i></p>
             </div>
