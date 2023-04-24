@@ -9,7 +9,7 @@ import minielephant2 from './img-news/minielephant2.jpg';
 
 function Map() {
   return (
-    <div style={{ backgroundImage: `url(${background})` }}>
+    <div style={{ backgroundImage: `url(${background})`,backgroundSize: `100vh`, backgroundPosition: `cover`, backgroundRepeat: `repeat` }}>
 
   <div className="welcome">
     <img src={require("./img/logo.png")} className="col-lg-8" alt="" />
