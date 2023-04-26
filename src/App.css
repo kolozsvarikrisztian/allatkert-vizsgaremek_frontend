@@ -157,7 +157,7 @@ h1 {
   width: 4vw;
 }
 
-#jegytipus {
+.jegytipus {
   text-align: left;
   font-weight: bold;
   width: 14vw;
@@ -171,7 +171,7 @@ h1 {
   padding-right: 0.2vw;
 }
 
-#jegytipusok {
+.jegytipusok {
   text-align: left;
   font-weight: bolder;
   width: 14vw;
