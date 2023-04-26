@@ -238,7 +238,7 @@ function Map() {
                 <div className="card-body">
                   <h5 className="card-title"><strong>Kiselefánt látogatása</strong></h5>
                   <p className="card-text">2023. február 17.-től a kiselefánt látogatása is elérhető a látógatóink számára!</p>
-                  <a href="#" className="btn btn-primary">Bővebb információ</a>
+                  <a href="http://localhost:3000/static/media/minielephant2.54008bed9a1b789cd664.jpg" target="_blank" rel="noreferrer" className="btn btn-primary">Bővebb információ</a>
                 </div>
               </div>
 
@@ -247,7 +247,7 @@ function Map() {
                 <div className="card-body">
                   <h5 className="card-title"><strong>Elnevezték az elefántot</strong></h5>
                   <p className="card-text">A látogatók által beküldött nevekből első helyen végzett a Suzy név, így a kiselefánt azt a nevet kapta.</p>
-                  <a href="#" className="btn btn-primary">Bővebb információ</a>
+                  <a href="http://localhost:3000/static/media/minielephant.c317118d8dd9b0d1596f.jpg" target="_blank" rel="noreferrer" className="btn btn-primary">Bővebb információ</a>
                 </div>
               </div>
 
@@ -256,7 +256,7 @@ function Map() {
                 <div className="card-body">
                   <h5 className="card-title"><strong>Új kiselefánt született</strong></h5>
                   <p className="card-text">2023. január 28.-án nőstény kiselefánt született az állatkertünkbe.</p>
-                  <a href="#" className="btn btn-primary">Bővebb információ</a>
+                  <a href="http://localhost:3000/static/media/minielephant1.e664ee1b6ae679f9a2ed.jpg" target="_blank" rel="noreferrer" className="btn btn-primary">Bővebb információ</a>
                 </div>
               </div>
 
@@ -380,7 +380,6 @@ function Map() {
         <div className="text-center p-3 text-light" style={{ backgroundColor: '#29221A', left: 0, bottom: 0, width: '100%', position: 'fixed' }}>
           Készítette: Nagy Tibor, Tóth Tamás Levente, Kolozsvári László Krisztián
         </div>
-        {/* Copyright */}
       </footer>
     </div>
   );
