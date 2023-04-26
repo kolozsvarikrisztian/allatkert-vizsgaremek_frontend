@@ -5,15 +5,11 @@ import Home from './Home';
 import Gallery from "./Gallery";
 import Terms from "./Terms";
 import Map from "./Map";
+import Logo from "./Logo";
 import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';  
 
 
 function App() {
-  // return (
-  //   <div className="App">
-  //     <Home />
-  //   </div>
-  // );
   return (
     <Router>  
            <div className="App">  
@@ -33,7 +29,8 @@ function App() {
               </li>  
             </ul>  
             </div>
-           <Routes>  
+           <Routes>
+                 <Route exact path='/' element={< Logo />}></Route>  
                  <Route exact path='/Home' element={< Home />}></Route>  
                  <Route exact path='/Terms' element={< Terms />}></Route>  
                  <Route exact path='/Gallery' element={< Gallery />}></Route>  
