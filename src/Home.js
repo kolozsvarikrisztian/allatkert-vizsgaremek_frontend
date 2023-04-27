@@ -1,20 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import background from "./img-wallpapers/main.png";
 
 function Home() {
-  return (
-    <div style={{ backgroundImage: `url(${background})`,backgroundSize: `100vh`, backgroundPosition: `cover`, backgroundRepeat: `repeat` }}>
 
-<div className="welcome">
-    <img src={require("./img/logo.png")} className="col-lg-8" alt="" />
-    <div className="col-lg-2 welcometext">
-      <h4>Üdvözöljük az Erdőkilátó Állatkert és Szabadidő Park oldalán!</h4>
-      <h4>Kellemes kikapcsolódást és böngészést kíván az állatkert egész csapata,</h4>
-      <h4>ha tehetik akkor látogassanak el Hozzánk személyesen is!</h4>
-    </div>
-  </div>
+  const [allatok, SetAllatok] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:9000/api/allatok")
+      .then(response => {
+        return response.json()
+      })
+      .then(data => {
+        SetAllatok(data)
+      })
+  }, [])
+
+  return (
+    <div style={{ backgroundImage: `url(${background})`, backgroundSize: `100vh`, backgroundPosition: `cover`, backgroundRepeat: `repeat` }}>
+
+      <div className="welcome">
+        <img src={require("./img/logo.png")} className="col-lg-8" alt="" />
+        <div className="col-lg-2 welcometext">
+          <h4>Üdvözöljük az Erdőkilátó Állatkert és Szabadidő Park oldalán!</h4>
+          <h4>Kellemes kikapcsolódást és böngészést kíván az állatkert egész csapata,</h4>
+          <h4>ha tehetik akkor látogassanak el Hozzánk személyesen is!</h4>
+        </div>
+      </div>
       <div className="container-fluid">
         <div className="content">
           <div className="col-lg-3 left">
@@ -127,7 +140,35 @@ function Home() {
               </div>
               <div id="animals" className="row">
                 <h2 className="divheader">Állataink</h2>
-                <div className="animalcard">
+
+                {allatok.map(value => (
+                  <div className="animalcard">
+                  <h2>{value.nev}</h2>
+                  <div className="tableimg"><img src={value.kepUrl} alt={value.nev} /></div>
+                  <table>
+                    <tbody>
+                        <tr>
+                          <td id="onerow" className="kategoria">Becenév</td>
+                          <td id="onerow" className="adat">{value.becenev}</td>
+                        </tr>
+                        <tr>
+                          <td id="onerow" className="kategoria">Életkor</td>
+                          <td id="onerow" className="adat">{value.eletkor}</td>
+                        </tr>
+                        <tr>
+                          <td id="doublerow" className="kategoria">Származás</td>
+                          <td id="doublerow" className="adat">{value.szarmazas}</td>
+                        </tr>
+                        <tr>
+                          <td id="fourrows" className="kategoria">Táplálék</td>
+                          <td id="fourrows" className="adat">{value.taplalek}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                ))}
+                
+                {/* <div className="animalcard">
                   <h2>Gímszarvas</h2>
                   <div className="tableimg"><img src={require('./img-animal/gímszarvas.jpg')} alt="gimszarvas" /></div>
                   <table>
@@ -292,7 +333,7 @@ function Home() {
                         </tr>
                       </tbody></table>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

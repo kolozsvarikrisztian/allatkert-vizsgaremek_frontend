@@ -45,65 +45,65 @@ function Gallery() {
               <p className="leftdivheader"><strong>Tájékoztató a jelenlegi jegyárainkról</strong></p>
               <table className="jegy">
                 <tbody><tr>
-                  <th id="jegytipusok">Jegytípusok</th>
+                  <th className="jegytipusok">Jegytípusok</th>
                   <th id="arak">Ár</th>
                 </tr>
                   <tr>
-                    <td id="jegytipus">Gyerek (3-14 év)</td>
+                    <td className="jegytipus">Gyerek (3-14 év)</td>
                     <td id="ar">3500 Ft</td>
                   </tr>
                   <tr>
-                    <td id="jegytipus">Diák</td>
+                    <td className="jegytipus">Diák</td>
                     <td id="ar">3800 Ft</td>
                   </tr>
                   <tr>
-                    <td id="jegytipus">Felnőtt</td>
+                    <td className="jegytipus">Felnőtt</td>
                     <td id="ar">5800 Ft</td>
                   </tr>
                   <tr>
-                    <td id="jegytipus">Nyugdíjás</td>
+                    <td className="jegytipus">Nyugdíjás</td>
                     <td id="ar">3800 Ft</td>
                   </tr>
                   <tr>
-                    <td id="jegytipus">70 év felett</td>
+                    <td className="jegytipus">70 év felett</td>
                     <td id="ar">2000 Ft</td>
                   </tr>
                   <tr>
-                    <td id="jegytipus">Fogyatékkal élők részére(1 fő + kísérő)</td>
+                    <td className="jegytipus">Fogyatékkal élők részére(1 fő + kísérő)</td>
                     <td id="ar">2000 Ft</td>
                   </tr>
                 </tbody></table>
               <table className="jegy">
                 <tbody><tr>
-                  <th id="jegytipusok">Kedvezményes, csoportos jegytípusok</th>
+                  <th className="jegytipusok">Kedvezményes, csoportos jegytípusok</th>
                   <th id="arak">Ár</th>
                 </tr>
                   <tr>
-                    <td id="jegytipus">2 felnőtt + 1 gyermek</td>
+                    <td className="jegytipus">2 felnőtt + 1 gyermek</td>
                     <td id="ar">12500 Ft</td>
                   </tr>
                   <tr>
-                    <td id="jegytipus">2 felnőtt + 2 gyermek</td>
+                    <td className="jegytipus">2 felnőtt + 2 gyermek</td>
                     <td id="ar">15500 Ft</td>
                   </tr>
                   <tr>
-                    <td id="jegytipus">2 felnőtt + 3 gyermek</td>
+                    <td className="jegytipus">2 felnőtt + 3 gyermek</td>
                     <td id="ar">17500 Ft</td>
                   </tr>
                   <tr>
-                    <td id="jegytipus">Óvodás csoport (15 fő után 2 kisérő 300 Ft / fő):</td>
+                    <td className="jegytipus">Óvodás csoport (15 fő után 2 kisérő 300 Ft / fő):</td>
                     <td id="ar">1000 Ft</td>
                   </tr>
                   <tr>
-                    <td id="jegytipus">Diák csoport (15 fő után 2 kisérő 300 Ft / fő):</td>
+                    <td className="jegytipus">Diák csoport (15 fő után 2 kisérő 300 Ft / fő):</td>
                     <td id="ar">2500 Ft</td>
                   </tr>
                   <tr>
-                    <td id="jegytipus">Felnőtt csoport (15 fő, az ár fejenként értendő):</td>
+                    <td className="jegytipus">Felnőtt csoport (15 fő, az ár fejenként értendő):</td>
                     <td id="ar">4800 Ft</td>
                   </tr>
                   <tr>
-                    <td id="jegytipus">Nyugdíjas csoport (15 fő, az ár fejenként értendő):</td>
+                    <td className="jegytipus">Nyugdíjas csoport (15 fő, az ár fejenként értendő):</td>
                     <td id="ar">2800 Ft</td>
                   </tr>
                 </tbody></table>
