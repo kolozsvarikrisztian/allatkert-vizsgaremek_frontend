@@ -148,20 +148,20 @@ function Home() {
                   <table>
                     <tbody>
                         <tr>
-                          <td id="onerow" className="kategoria">Becenév</td>
-                          <td id="onerow" className="adat">{value.becenev}</td>
+                          <td className="kategoria onerow">Becenév</td>
+                          <td className="adat onerow">{value.becenev}</td>
                         </tr>
                         <tr>
-                          <td id="onerow" className="kategoria">Életkor</td>
-                          <td id="onerow" className="adat">{value.eletkor}</td>
+                          <td className="kategoria onerow">Életkor</td>
+                          <td className="adat onerow">{value.eletkor}</td>
                         </tr>
                         <tr>
-                          <td id="doublerow" className="kategoria">Származás</td>
-                          <td id="doublerow" className="adat">{value.szarmazas}</td>
+                          <td className="kategoria doublerow">Származás</td>
+                          <td className="adat doublerow">{value.szarmazas}</td>
                         </tr>
                         <tr>
-                          <td id="fourrows" className="kategoria">Táplálék</td>
-                          <td id="fourrows" className="adat">{value.taplalek}</td>
+                          <td className="kategoria fourrows">Táplálék</td>
+                          <td className="adat fourrows">{value.taplalek}</td>
                         </tr>
                       </tbody>
                     </table>

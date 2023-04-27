@@ -288,15 +288,15 @@ table, tr, th, td{
   max-height: 100vh;
 }
 
-#onerow{
+.onerow{
   height: 40px;
 }
 
-#doublerow{
+.doublerow{
   height: 80px;
 }
 
-#fourrows{
+.fourrows{
   height: 120px;
 }
 
