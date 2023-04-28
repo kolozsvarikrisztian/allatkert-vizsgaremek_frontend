@@ -21,7 +21,7 @@ function Home() {
     <div style={{ backgroundImage: `url(${background})`, backgroundSize: `100vh`, backgroundPosition: `cover`, backgroundRepeat: `repeat` }}>
 
       <div className="welcome">
-        <img src={require("./img/logo.png")} className="col-lg-8" alt="" />
+        <img src={require("./img/logo.png")} className="col-lg-8" alt="logo" />
         <div className="col-lg-2 welcometext">
           <h4>Üdvözöljük az Erdőkilátó Állatkert és Szabadidő Park oldalán!</h4>
           <h4>Kellemes kikapcsolódást és böngészést kíván az állatkert egész csapata,</h4>
